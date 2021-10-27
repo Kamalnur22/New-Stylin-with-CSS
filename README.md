@@ -2,6 +2,8 @@
 <html>
  <head>
    <title>My Cool Web Page</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <meta name="robots" content="noindex,nofollow" />
    <style>
    html{
        background-color:#ccc;
@@ -14,7 +16,24 @@
            width:90%;
            margin:0 auto;
            padding :100%}
-     
+
+            nav{
+                text-align:center; /* centers the nav */
+            }
+            
+            nav ul {
+                    list-style:none; /* removes the bullets */
+                }
+            nav ul li
+                {
+                    display:inline-block; /* makes horizontal, but able to declare margins */
+                    margin:0 2%; /* margin left-right, gets smaller as necessary */
+                }
+            nav a:hover{
+                text-decoration: none;
+            }
+
+
 
      footer{
          text-align:center;
