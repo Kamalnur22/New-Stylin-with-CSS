@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
  <head>
    <title>My Cool Web Page</title>
@@ -6,10 +6,20 @@
    html{
        background-color:#ccc;
    }
+
      body{
        font-family:'Courier New';
        max-width:960px;
-       background-color:#fff:
+       background-color:#fff:[
+           width:90%;
+           margin:0 auto;
+           padding :100%}
+     
+
+     footer{
+         text-align:center;
+         clear:both;
+     }
    </style>
  </head>
  <body>
@@ -67,7 +77,8 @@
  
 </table>
  
- 
- 
+ <footer>
+&copy: 2021 my cool website
+ </footer>
  </body> 
 </html> 
