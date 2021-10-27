@@ -23,7 +23,33 @@
    </style>
  </head>
  <body>
-   <h1>My Cool Web Page</h1>
+<header>
+    <h1>My Cool Web Page</h1>
+    <!-- put nav below here - ->
+
+
+
+
+
+
+<nav>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+				<li><a href="#">Link 6</a></li>
+			</ul>
+		    </nav>
+
+
+
+
+
+
+
+</header>
    <p>Here is some clever content.  That was not very clever, but I need more content.  I need at least one more sentence to make this a paragraph.</p>
  
  
